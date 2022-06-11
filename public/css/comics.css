@@ -1,6 +1,5 @@
-img {
+.ico {
     height: 205px;
-    object-fit: none;
 }
 
 .comic {
@@ -11,6 +10,10 @@ img {
     height: 500px;
     background-image: url(../img/jumbotron.jpg);
     position: relative;
+}
+
+.menu li a:hover {
+    text-decoration: none !important;
 }
 
 main {
@@ -68,4 +71,8 @@ p {
 
 .par {
     width: 40px;
+}
+
+.btn_search {
+    border-bottom: 3px solid black;
 }

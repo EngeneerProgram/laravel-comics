@@ -2,11 +2,11 @@
 <div class="container">
 <header>
     <div class="logo">
-
+    <img class="main_logo" src="../img/dc-logo.png" alt="">
     </div>
 
     <nav>
-        <ul class="menu d-flex">
+        <ul class="menu ">
             <li>
                 <a href="{{route('characters')}}">CHARACTERS</a>
             </li>
@@ -48,6 +48,10 @@
             </li>
         </ul>
     </nav>
+
+    <div class="inp">
+    <input type="text" class="btn_search form-control" placeholder="Search.." aria-label="Username" aria-describedby="basic-addon1">
+    </div>
 </header>
 
 </div>

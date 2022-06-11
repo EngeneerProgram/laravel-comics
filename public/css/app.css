@@ -1,17 +1,19 @@
 .hd_container {
-    height: 10vh;
+    height: 15vh;
     display: Flex;
     align-items: center;
 }
 
 header {
     height: 100%;
+    display: Flex;
+    align-items: center;
 }
 
 .menu {
     display: Flex;
     list-style: none;
-    justify-content: space-between;
+    margin-top: 20px;
 }
 
 .footer_container {
@@ -27,8 +29,13 @@ header {
     height: 372px;
 }
 
+.menu li {
+    margin: 10px;
+}
+
 .menu-list li {
     color: white;
+    margin: 5px;
 }
 
 .menu-list {
@@ -43,7 +50,7 @@ header {
     height: 10vh;
 }
 
-EngeneerProgram/laravel-comics .ico_foo>img {
+.ico_foo>img {
     margin: 10px;
 }
 
@@ -63,4 +70,8 @@ EngeneerProgram/laravel-comics .ico_foo>img {
 .btn-tr {
     display: Flex;
     align-items: center;
+}
+
+.main_logo {
+    width: 80px;
 }
