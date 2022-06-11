@@ -74,10 +74,12 @@ Route::get('/comics/{id}', function($id){
         
         
         $comic = $comics[$id];
-        return view('comics.show', compact('comic'));
+        $response = data_get($comic, 'artists', 0);
+        
+        
+        return view('comics.show', compact('comic', 'response'));
     }else{
         abort(404);
     }
 
 })->name('single-comic');
-

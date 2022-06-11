@@ -81,20 +81,57 @@ p {
 }
 
 .single_show {
-    background-color: rgb(105, 103, 102);
-    box-sizing: 0 0 0 9px solid black;
     height: 600px;
     margin-bottom: 3rem;
+    position: relative;
 }
 
 .img_single {
     width: 50%;
 }
 
-.text_single {
-    width: 50%;
+.single {
+    width: 200px;
+    position: absolute;
+    top: -380px;
+    left: 0;
 }
 
-.price {
-    border-bottom: 1px solid red;
+.full {
+    margin-left: -15px;
+    height: 10vh;
+    background-color: rgba(2, 130, 249, 1);
+    position: absolute;
+    bottom: 0;
+}
+
+.thumb {
+    height: 10vh;
+}
+
+.card_info {
+    width: 100%;
+}
+
+.left {
+    width: 50%;
+    padding: 10px;
+}
+
+.right {
+    display: Flex;
+    align-items: center;
+    width: 14%;
+}
+
+.title {
+    color: rgba(4, 120, 189, 1)
+}
+
+.description {
+    color: rgba(69, 74, 78, 1);
+}
+
+.description_card {
+    width: 65%;
 }
