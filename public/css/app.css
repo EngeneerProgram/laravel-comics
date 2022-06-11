@@ -10,6 +10,14 @@ header {
     align-items: center;
 }
 
+.active {
+    border-bottom: 3px solid blue;
+}
+
+.active:hover {
+    text-decoration: none !important;
+}
+
 .menu {
     display: Flex;
     list-style: none;
