@@ -1,0 +1,71 @@
+img {
+    height: 205px;
+    object-fit: none;
+}
+
+.comic {
+    text-align: center;
+}
+
+.hero_bg {
+    height: 500px;
+    background-image: url(../img/jumbotron.jpg);
+    position: relative;
+}
+
+main {
+    margin-top: -25px;
+}
+
+.card_container {
+    background-color: rgba(28, 28, 28, 1);
+}
+
+p {
+    color: white;
+}
+
+.comics {
+    padding-top: 3rem;
+    position: relative;
+    height: 700px;
+}
+
+.current {
+    position: absolute;
+    bottom: -26px;
+    left: 408px;
+}
+
+.series {
+    padding: 10px 20px;
+    background-color: rgba(2, 130, 249, 1);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.center {
+    position: absolute;
+    right: 50%;
+    bottom: 10px;
+}
+
+.card_img {
+    display: Flex;
+    height: 30vh;
+    background-color: rgba(2, 130, 249, 1);
+}
+
+.ico {
+    width: 120px;
+}
+
+.ico_section {
+    display: Flex;
+}
+
+.par {
+    width: 40px;
+}
