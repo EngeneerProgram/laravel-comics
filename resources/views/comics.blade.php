@@ -9,13 +9,16 @@
 <div class="container-fluid card_container">
 <div class="container comics">
     <div class="row row-col-1 row-col-md-2 row-col-sm-2 row-col-lg-3">
-        @forelse($comics as $comic)
+        @forelse($comics as $index => $comic)
+        <a href="{{route('single-comic', $index)}}">
+
         <div class="col">
             <div class="comic">
                 <img src="{{$comic['thumb']}}" alt="">
                 <p>{{$comic['series']}}</p>
             </div>
         </div>
+        </a>
 
         @empty
         <div class="col">
