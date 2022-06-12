@@ -42,22 +42,54 @@
    
 </div>
 
-<div class="container-fluid card">
-    <div class="sinistra">
-        <div class="up d-flex">
+<div class="container-fluid   card card-info">
+    <div class="sinistra  ">
+        <div class="up ">
+            
             <div class="info1">Art by: 
                
             </div>
             <div class="artist">
-                
+                @forelse (
+                   $response as $item)
+                   <small>{{$item}}</small>
+                   
+               @empty
+                   
+               @endforelse
+               <hr>
             </div>
         </div>
-        
+        <div class="up">
+
+             
+            <div class="info1">Writen by: 
+               
+            </div>
+            <div class="artist">
+                @forelse (
+                   $responses as $items)
+                   <small>{{$items}}</small>
+                   
+               @empty
+                   
+               @endforelse
+               <hr>
+
+            </div>
+        </div>
         
     </div>
 
     
-    <div class="destra"></div>
+    <div class="destra d-flex flex-column">
+        <small>Series: {{$comic['series']}}</small>
+        
+        <small>U:S. Price{{$comic['price']}}</small>
+        
+        <small>On sale date: {{$comic['sale_date']}}</small>
+        
+    </div>
 </div>
 
 

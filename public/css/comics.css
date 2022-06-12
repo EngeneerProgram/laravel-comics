@@ -135,3 +135,33 @@ p {
 .description_card {
     width: 65%;
 }
+
+.up {
+    display: Flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.artist>small {
+    color: rgba(4, 120, 189, 1)
+}
+
+.artist {
+    width: 335px;
+}
+
+.sinistra {
+    width: 50%;
+}
+
+.card-info {
+    height: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: center;
+}
+
+.destra {
+    width: 50%;
+}
